@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <ul>
+    <li class="list-menu">goreng tempe</li>
+    <li class="list-menu">mendoan</li>
+    <li class="list-menu">tahu bulat</li>
+  </ul>
+
+  <p id="jawaban"></p>
+  <script>
+    var listMenu = document.getElementsByClassName("list-menu")
+    // Hasil selektor yaitu berupa array collection HTML
+    console.log(listMenu.length) // 3
+    var gorengTempe = listMenu[0]
+    document.getElementById("jawaban").innerHTML = listMenu[0]
+  </script>
+</body>
+</html>
