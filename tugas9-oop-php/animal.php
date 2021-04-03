@@ -1,4 +1,5 @@
 <?php
+
 class Animal
 
 //release 0
@@ -11,3 +12,6 @@ class Animal
     $this->name = $name;
   }
 }
+
+
+?>
