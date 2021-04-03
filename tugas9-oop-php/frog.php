@@ -5,8 +5,7 @@ require('animal.php');
 class Frog extends Animal
 {
     public $name;
-    public $legs = 2;
-    public $jump = "hop-hop";
+    public $legs = 4;
     public function __construct($name)
     {
         $this->name = $name;
